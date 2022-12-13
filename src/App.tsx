@@ -1,7 +1,10 @@
+import { BrowserRouter } from 'react-router-dom';
+import { AppRoutes } from './routes/index';
+
 export const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World!!!!</h1>
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
